@@ -1,0 +1,76 @@
+@font-face {
+  font-family: boogaloo;
+  src: url(fonts/boogaloo.ttf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #432000;
+    user-select: none;
+    font-family: boogaloo;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 250px;
+    margin: 0 auto;
+}
+
+input {
+    color: #5C2A00;
+    background-color: #DCE1EB;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    font-family: boogaloo;
+    margin: 10px 0;
+}
+
+button {
+    color: #FDFDFD;
+    background-image: linear-gradient(to right, #C71835, #FF3F5E);
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    font-family: boogaloo;
+}
+
+button:hover {
+    background-color: #A90924;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 18px;
+    background-color: #FFFDF8;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    color: #710C1D;
+}
+
+ul li:hover {
+    background-color: #FFD343;
+    cursor: pointer;
+}
