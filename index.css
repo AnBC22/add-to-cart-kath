@@ -29,7 +29,7 @@ input {
     border: 0;
     padding: 15px;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 19px;
     text-align: center;
     font-family: boogaloo;
     margin: 10px 0;
@@ -41,7 +41,7 @@ button {
     border: 0;
     padding: 15px;
     border-radius: 8px;
-    font-size: 18px;
+    font-size: 19px;
     text-align: center;
     font-family: boogaloo;
 }
@@ -60,7 +60,7 @@ ul {
 }
 
 ul li {
-    font-size: 18px;
+    font-size: 19px;
     background-color: #FFFDF8;
     padding: 15px;
     border-radius: 8px;
