@@ -3,7 +3,7 @@ import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com
 
 const appSettings = {
     databaseURL: "https://kath-database-default-rtdb.firebaseio.com/"
-}
+} 
 
 const app = initializeApp(appSettings)
 const database = getDatabase(app)
@@ -37,7 +37,7 @@ onValue(shoppingListInDB, function(snapshot) {
             appendItemToShoppingListEl(currentItem)
         }    
     } else {
-        shoppingListEl.innerHTML = "Tu carrito está vacío... 🛒"
+        shoppingListEl.innerHTML = "Your list is empty... 📝"
     }
 })
 

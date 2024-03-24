@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lista de compras!</title>
+        <title>List of priorities</title>
         <!-- font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,13 +17,22 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div class="container">
-            <img src="assets/veggie.png">
-            <input type="text" id="input-field" placeholder="¿Qué quieres comprar?">
-            <button id="add-button">Añadir al carrito</button>
-            <ul id="shopping-list">
-            </ul>
-        </div>
+        <main>
+            <section class="container">
+                <img class="top-img" src="assets/list-logo.png">
+                <input type="text" id="input-field" placeholder="What are today's priorities?">
+                <button id="add-button">Add to list</button>
+                <ul id="shopping-list">
+                </ul>
+            </section>
+            <div class="quote-container">
+                <img class="quote-img" src="/assets/quote-author.png"/>
+                <p>
+                    “Don’t let the things that matter least, get in the way of the things that matter most.” 
+                    <span class="quote-author-name">- Roy T. Bennett</span>
+                </p>
+            </div>
+        </main>
         <script src="index.js" type="module"></script>
     </body>
 </html>

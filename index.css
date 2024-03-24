@@ -6,7 +6,8 @@
 html, body {
     margin: 0;
     padding: 0;
-    color: #432000;
+    color: #191970;
+    /* color: #432000; */
     user-select: none;
     font-family: boogaloo;
 }
@@ -23,9 +24,15 @@ img {
     margin: 0 auto;
 }
 
+.top-img {
+    padding-bottom: 2em;
+}
+
 input {
-    color: #5C2A00;
-    background-color: #DCE1EB;
+    /* color: #5C2A00; */
+    color: #191970;
+    background-color: #ffe4b2;
+    
     border: 0;
     padding: 15px;
     border-radius: 8px;
@@ -37,7 +44,8 @@ input {
 
 button {
     color: #FDFDFD;
-    background-image: linear-gradient(to right, #C71835, #FF3F5E);
+    /* background-image: linear-gradient(to right, #C71835, #FF3F5E); */
+    background: linear-gradient(90deg, rgba(252,186,62,1) 26%, rgba(255,165,0,1) 65%);
     border: 0;
     padding: 15px;
     border-radius: 8px;
@@ -47,7 +55,7 @@ button {
 }
 
 button:hover {
-    background-color: #A90924;
+    background-color: #FFD700;
     cursor: pointer;
 }
 
@@ -67,10 +75,46 @@ ul li {
     flex-grow: 1;
     text-align: center;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
-    color: #710C1D;
+    /* color: #710C1D; */
+    color: #191970;
 }
 
 ul li:hover {
     background-color: #FFD343;
     cursor: pointer;
+}
+
+/*
+
+Normal State: #FFA500 (Bright Orange) - This is the default color of the button.
+
+Hover State: #FFD700 (Gold) - When the user hovers over the button, changing it to a slightly lighter shade like gold can add a subtle interactive effect.
+
+Focus State: #FF8C00 (Dark Orange) - This color provides a darker shade of orange to indicate that the button has keyboard focus.
+
+Active State: #FF6347 (Tomato) - When the button is clicked or activated, a color like tomato red can provide visual feedback.
+
+*/
+
+.quote-container {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+    margin: 1em auto;
+}
+
+.quote-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.quote-author-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #191970;
+    display: block;
+    margin-top: 10px;
 }
